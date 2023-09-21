@@ -56,7 +56,7 @@ paths:
         '$ref': '#/components/requestBodies/Pet'
       responses:
         '400':
-          description: Invalid ID supplied
+          description: Invalid ID supplied!
         '404':
           description: Pet not found
         '405':
