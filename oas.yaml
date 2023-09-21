@@ -40,7 +40,7 @@ paths:
       requestBody:
         '$ref': '#/components/requestBodies/Pet'
       responses:
-        '503':
+        '400':
           description: Invalid input
       security:
         - petstore_auth:
